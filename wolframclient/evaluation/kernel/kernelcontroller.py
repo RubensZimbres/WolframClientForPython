@@ -181,7 +181,7 @@ class WolframKernelController(Thread):
         )
 
     _DEFAULT_PARAMETERS = {
-        "STARTUP_TIMEOUT": 20,
+        "STARTUP_TIMEOUT": 60,
         "TERMINATE_TIMEOUT": 3,
         "HIDE_SUBPROCESS_WINDOW": True,
     }
